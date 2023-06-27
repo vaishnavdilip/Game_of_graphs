@@ -40,6 +40,10 @@ Before running the notebooks, please follow the following steps:
   
   Now you can run the notebooks in chronological order from Part1 to Part3.
 
+## Individual contribution and gained knowledge:
+
+Aleksandra contributed to this project by developing the 5 centrality measures (i.e., degree, weighted degree, eigenvector, PageRank, and betweenness) and deriving the communities in different seasons using Leiden Algorithm. She also participated in generating training, validation, and testing sets by creating positive instances using the true edges and nodes from the graph and developing negative instances (i.e., non-existing edges) by looking what are the possible pairs of nodes that are between 2 and 3 hops away from each other. After a random forest classifier was introduced by her using the number of common neighbors, preferential attachment, and Adamic Adar as features. This project taught her how valuable and powerful graph databases are as basic information about the nodes and weighted edges enables them to provide details on which nodes are the most important in a network and allows them to introduce graph embeddings for link prediction.
+
 ## References:
   - [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
   - [Dataset](https://github.com/mathbeveridge/gameofthrones)
