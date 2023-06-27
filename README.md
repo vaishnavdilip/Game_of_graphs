@@ -47,6 +47,11 @@ I contributed to this project by developing the 5 centrality measures (i.e., deg
 
 ### Vaishnav Dilip
 
+I played a significant role in the project by setting up the database and creating the network. Additionally, I developed the validation set and performed cross-validation to identify the best model for link prediction. To enhance the performance of the link prediction model, I introduced additional features, such as triangle count, to the dataset. Furthermore, I was responsible for generating plots of the networks.
+
+This project provided me with valuable lessons and insights. One of the most important lessons was understanding how to identify significant nodes in a network using various centrality measures and applying traditional machine learning techniques for link prediction. It was truly exciting to witness how the centrality measures alone could capture the importance of characters in the Game of Thrones narrative. Another fascinating aspect was improving the accuracy of a RandomForest classifier by incorporating network features into the model. Additionally, through community detection in the training, validation, and test sets, we observed how the communities evolved with each season and how crucial characters aligned themselves with their allies before the epic final war.
+
+Moreover, I gained valuable experience in graph embeddings. Although numerous experiments were conducted to create embeddings for the nodes and integrate them into the link prediction model, we discovered that all the nodes ended up having the same embedding, rendering them ineffective for inclusion in the dataset. This served as an important learning experience for us.
 
 ## References:
   - [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)
