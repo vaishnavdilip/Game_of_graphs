@@ -45,9 +45,9 @@ Before running the notebooks, please follow the following steps:
 ### Aleksandra Elena Getman
 I contributed to this project by developing the 5 centrality measures (i.e., degree, weighted degree, eigenvector, PageRank, and betweenness) and deriving the communities in different seasons using Leiden Algorithm. I was also responsible for generating the training, validation, and testing sets by creating positive instances using the true edges and nodes from the graph and developing negative instances (i.e., non-existing edges) by looking what are the possible pairs of nodes that are between 2 and 3 hops away from each other. After a random forest classifier was introduced using the number of common neighbors, preferential attachment, and Adamic Adar as features. 
 
-This project taught me how valuable and powerful graph databases are, as basic information about the nodes and weighted edges enables them to provide details on which nodes are the most important in a network and allows them to introduce graph embeddings for link prediction. Thereby, I was exposed to an alternative way to derive rich features. This project also allowed me to understand deeper how Neo4j works and how it can be integrated in Jupiter's notebook.
+This project taught me how valuable and powerful graph databases are, as basic information about the nodes and weighted edges enables them to provide details on which nodes are the most important in a network and allows them to introduce graph embeddings for link prediction. Thereby, I was exposed to an alternative way to derive rich features. This project also allowed me to understand deeper how Neo4j works and how it can be integrated in Jupiter's notebook. Additionally, I learned how various algorithms (for example, Louvain modularity and Leiden) work in practice which made me understand how they differ.
 
-I found that the game of thrones dataset
+To conclude, I would like to mention that this project provided a lot of benefits in understanding the material that was discussed in class, and in general I enjoyed doing this project.
 
 ### Vaishnav Dilip
 
